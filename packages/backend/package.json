@@ -25,5 +25,15 @@
   },
   "bugs": {
     "url": "https://github.com/xxxhand/ts-mono-sample/issues"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "socket.io": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.1",
+    "@types/koa-router": "^7.4.1",
+    "@types/socket.io": "^2.1.13"
   }
 }
