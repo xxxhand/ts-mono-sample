@@ -21,7 +21,7 @@ const _argv = yargs
     configpath: {
       demandOption: false,
       describe: 'Set the config file path absolutely, default is empty',
-      default: '../configs',
+      default: '../../../configs',
     },
   })
   .help()

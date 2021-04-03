@@ -11,7 +11,7 @@
     "clean": "npx lerna run --parallel clean",
     "build": "npm run clean && npm run build:all",
     "build:all": "npx lerna run build --stream",
-    "test:local": "npm test --envir=local",
+    "test:local": "npm test --envir=development",
     "test": "cross-env NODE_ENV=$npm_config_envir node --max_old_space_size=4096 ./node_modules/jest/bin/jest.js --runInBand --logHeapUsage --detectOpenHandles --forceExit"
   },
   "pre-commit": [
