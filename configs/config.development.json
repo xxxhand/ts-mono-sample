@@ -1,9 +1,0 @@
-{
-  "DEFAULT_MONGO": {
-    "URI": "",
-    "USER": "",
-    "PASS": "",
-    "POOL_SIZE": 0,
-    "DB_NAME": ""
-  }
-}
